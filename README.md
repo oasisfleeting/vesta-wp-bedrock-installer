@@ -3,7 +3,7 @@ vesta installer for roots/bedrock core setup
 --------------------------------
 
 
-``#!/bin/bash
+`#!/bin/bash
 
 tar xzf bedrock.tar.gz
 wget https://github.com/roots/bedrock/archive/master.zip
@@ -41,5 +41,5 @@ composer update
 cd $HOME
 wget https://github.com/wp-cli/wp-cli/raw/master/utils/wp-completion.bash
 source $HOME/wp-completion.bash
-source $HOME/.profile``
+source $HOME/.profile`
 
