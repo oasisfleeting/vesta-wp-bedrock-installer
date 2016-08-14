@@ -39,3 +39,7 @@ cd $HOME
 wget https://github.com/wp-cli/wp-cli/raw/master/utils/wp-completion.bash
 source $HOME/wp-completion.bash
 source $HOME/.profile
+
+#read -p "enter db name" var
+#wp dotenv set  DB_NAME "$USER"_pudb DB_USER "$USER"_dbuser DB_PASSWORD butter11 DB_HOST localhost
+#wp dotenv set WP_HOME pumpersblog.com
