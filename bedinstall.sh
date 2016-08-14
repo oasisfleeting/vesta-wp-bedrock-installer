@@ -2,10 +2,10 @@
 
 wget https://github.com/roots/bedrock/archive/master.zip
 unzip master.zip
-mv master-bedrock/* ./
-cp master-bedrock/.env.example ./
+mv bedrock-master/* ./
+cp bedrock-master/.env.example ./
 rm -f master.zip
-rm -rf master-bedrock
+rm -rf bedrock-master
 
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 chmod +x wp-cli.phar
